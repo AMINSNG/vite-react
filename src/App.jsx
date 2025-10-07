@@ -24,7 +24,7 @@ const handleOnClick = (nmber) => {
       <div className="card">
         {/* <button onClick={() => setCount((count) => count + 1)}> */}
         {/* <button onClick={handleOnClick}> */}
-        <button onClick={()=>handleOnClick(2)}>
+        <button onClick={()=>handleOnClick(1)}>
 
           count is {count}
         </button>
