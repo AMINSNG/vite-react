@@ -1,0 +1,26 @@
+.themecontainer {
+  min-width: 310px;
+  border: 2px solid rgb(245, 238, 238);
+  border-radius: 10px;
+  padding: 22px;
+  text-align: left;
+  transition: all 0.4s;
+}
+.themecontainer h2 {
+  margin: 0px;
+}
+
+.themecontainer > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.themecontainer.light {
+  background-color: beige;
+  color: black;
+}
+.themecontainer.dark {
+  color: beige;
+  background-color: black;
+}
