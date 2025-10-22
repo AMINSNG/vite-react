@@ -3,7 +3,8 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 // import Training from "./training";
-import Themeswitch from "./themeswitch";
+// import Themeswitch from "./themeswitch";
+import Fontsize from "./fontsize";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,7 +15,7 @@ function App() {
 
   return (
     <div>
-      <Themeswitch />
+      <Fontsize  counter={10}   />
     </div>
     // <>
     //   <div>
