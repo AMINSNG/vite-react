@@ -15,6 +15,9 @@ function App() {
   };
 
   return (
+    // <div>
+    //   <Fontsize  counter={10}   />
+    // </div>
     <div>
       <Search />
     </div>
