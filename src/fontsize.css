@@ -5,3 +5,9 @@
     min-width: 400px;
     min-height: 500px;
 }
+
+.reset-button > button {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+}
