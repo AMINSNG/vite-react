@@ -4,7 +4,8 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 // import Training from "./training";
 // import Themeswitch from "./themeswitch";
-import Fontsize from "./fontsize";
+// import Fontsize from "./fontsize";
+import Searching from "./search";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,8 +15,11 @@ function App() {
   };
 
   return (
+    // <div>
+    //   <Fontsize  counter={10}   />
+    // </div>
     <div>
-      <Fontsize  counter={10}   />
+      <Searching />
     </div>
     // <>
     //   <div>
