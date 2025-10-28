@@ -25,7 +25,7 @@ function Search() {
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia,
-            officiis.
+            officiiskhrrkhgdf.
           </p>
         </div>
       </div>
